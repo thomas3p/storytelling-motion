@@ -1,0 +1,19 @@
+# media and builds are never committed
+*.mp4
+*.wav
+*.mp3
+*.ttf
+render/
+compositions/
+index.html
+timeline_resolved.json
+.hyperframes/
+node_modules/
+.env
+.env.*
+*credentials*.json
+*token*.json
+__pycache__/
+*.py[cod]
+.DS_Store
+Thumbs.db

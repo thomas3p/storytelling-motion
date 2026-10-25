@@ -1,0 +1,19 @@
+{
+  "title": "ปอบยุค 5G",
+  "slug": "pop5g",
+  "episodes_planned": 8,
+  "voice": {
+    "model": "gemini-3.8-flash-tts",
+    "voice": "en-us-storyteller-14",
+    "temperature": 1.0,
+    "seed": 20261024,
+    "language": null,
+    "api": "interactions",
+    "style_base": "Young Thai man narrating a darkly comic horror story directly to the listener, like a late-night storyteller. Playful, sly, low and close voice, steady conversational pace, short pauses.",
+    "note": "Channel narrator system (same as แทรกซึม / สมุดไดอารี่เปล่า): API voice en-us-storyteller-14 (male, matches the male style), seed 20261024, temperature 1.0, no Seed-VC conversion. Generate the whole script in one run with tools/aistudio_tts.py; check the ASR text against the script (the model can add lines)."
+  },
+  "look": "flood (survival-5styles): flat vector, big-headed front-view characters, soft shading, glows + light cones, vignette, grain; cream knowledge cards with a red number badge, EP tag top-left, captions with red highlight pills, appointment-card end screen. tools/flatkit.js via KIT = 'flat'.",
+  "motion": "every shot: slow push-in + parallax, characters breathe/sway/blink, lights flicker, soft easing only, 0.3 s cross-dissolve (timeline xfade 0.3)",
+  "palette": { "night": "#0b0f1e", "clinic": "#e9eef2", "neon": "#ff3d7f", "blood": "#c8243a", "fat": "#f2d27a", "red": "#e5483a", "cream": "#fbf3dc" },
+  "render": "--quality high --gpu --browser-gpu --workers 10 --resolution portrait-4k --fps 60"
+}

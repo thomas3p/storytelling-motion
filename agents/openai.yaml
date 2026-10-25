@@ -1,0 +1,4 @@
+interface:
+  display_name: "Storytelling Motion"
+  short_description: "ทำคลิปเล่าเรื่อง 2D Motion Graphic แนวตั้งเป็นซีรีส์ด้วย HyperFrames"
+  default_prompt: "ใช้ $storytelling-motion สร้างซีรีส์ใหม่จากเรื่องย่อของฉัน บอกแผนว่ากี่ตอนจบ แล้วเริ่มตอนแรก"

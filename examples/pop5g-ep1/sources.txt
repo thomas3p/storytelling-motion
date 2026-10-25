@@ -1,0 +1,15 @@
+ปอบยุค 5G ตอนที่ 1 · บุฟเฟต์ถูกกฎหมาย — แหล่งที่มา
+
+ข้อเท็จจริงจริง (ฉาก s07)
+- สมาคมศัลยแพทย์ตกแต่งอเมริกัน (ASPS) แนะนำว่า การดูดไขมันปริมาณมาก (ไขมันรวมของเหลวที่ดูดออกเกิน 5,000 มล.) ควรทำในโรงพยาบาลหรือสถานพยาบาลที่ได้รับการรับรอง และเฝ้าดูสัญญาณชีพกับปริมาณปัสสาวะค้างคืน
+  ที่มา: ASPS Practice Advisory on Liposuction — https://www.plasticsurgery.org/documents/medical-professionals/health-policy/key-issues/practice-advisory-on-liposuction.pdf
+  ASPS Executive Summary on Liposuction — https://plasticsurgery.org/documents/medical-professionals/health-policy/key-issues/Executive-Summary-on-Liposuction.pdf
+  บทความทบทวน: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3552605/
+
+เรื่องแต่ง
+- ปอบ (ความเชื่อพื้นบ้าน) หมอพิม คลินิก การกินขยะติดเชื้อ ฝน อาจารย์เต้ย และแอป "ดมผี" เป็นเรื่องแต่งทั้งหมด ชื่อคลินิกเป็นชื่อสมมติ ไม่เกี่ยวกับคลินิกจริง
+- ราคาในใบเสร็จเป็นตัวเลขสมมติ
+
+เสียงพากย์: Gemini TTS API (Interactions) เสียง en-us-storyteller-14 (ชาย) seed 20261024 temperature 1.0 — 2026-10-25 (โมเดลอ่านคำว่า "ยกมือถือขึ้น" เป็น "ยกมือขึ้น" ซับแก้ตามเสียงจริง)
+เสียงประกอบ/ดนตรี: CC0 จาก freesound.org (ดูรายชื่อใน assets/licences.md)
+ฟอนต์: Prompt, Mitr (SIL OFL, Google Fonts) จากโปรเจกต์ survival-5styles
