@@ -1,0 +1,92 @@
+{
+  "title": "60°C รุ่งอรุณเดือด",
+  "slug": "glass-oven",
+  "episodes_planned": 8,
+  "voice": {
+    "service": "Higgsfield generate_audio",
+    "model": "seed_audio",
+    "voice_type": "preset",
+    "voice_id": "165d9309-bb17-56ff-964a-5d6a38dab92f",
+    "voice_name": "Nadine (female, middle-aged)",
+    "speech_rate": 0,
+    "format": "wav",
+    "sample_rate": 48000,
+    "status": "test line generated 2026-10-26 (0.6 credits); full-episode take waits for the user's OK on the Thai reading",
+    "note": "User picked this voice. Keep model + voice_id + rates identical every episode. The container cannot download from the Higgsfield CDN (network policy), so the file comes in via an allowed domain or a chat upload. EP1 visuals are timed on a temporary offline MMS-tha voice (CC-BY-NC, never publish it)."
+  },
+  "look": "flood (flatkit): flat vector, big-headed front-view characters, soft shading, glows + light cones, vignette, grain. Heat signature: a temperature/time chip top-right (06:00 · 35°C → 60°C), warm overexposed glare, heat-haze ripples, sweat. End screen = an elevator floor indicator showing the floor reached.",
+  "motion": "every shot: slow push-in + parallax, characters breathe/sway/blink, lights and glare flicker, heat haze drifts, soft easing only, 0.3 s cross-dissolve (timeline xfade 0.3)",
+  "palette": {
+    "dawn": "#3a1e3e",
+    "sun": "#ffb547",
+    "glare": "#fff1c8",
+    "glass": "#5fa8c8",
+    "heat": "#ff5a2a",
+    "red": "#e5483a",
+    "night": "#0b0f1e",
+    "cream": "#fbf3dc"
+  },
+  "render": "--quality high --fps 60 --resolution portrait (user, 2026-10-26: 1080p 60fps high quality)",
+  "title_en": "The Glass Oven",
+  "logline": "ชั้นโอโซนพังกะทันหัน อุณหภูมิพุ่งจาก 35 เป็น 60°C ใน 2 ชั่วโมงหลังพระอาทิตย์ขึ้น เชน ช่างซ่อมบำรุงที่ติดอยู่ชั้น 40 ของคอนโดกระจกล้วน ต้องพาตัวเองและผู้รอดชีวิตลงไปชั้นใต้ดินให้ทันก่อนร่างกายจะสุก",
+  "plan": [
+    {
+      "ep": 1,
+      "title": "แดดแรกเดือด",
+      "floors": "40",
+      "clock": "06:00–07:05",
+      "temp": "35→52°C",
+      "story": "แอร์ระเบิด น้ำในก๊อกเดือด นกร่วง ไฟดับ ลิฟต์ค้าง เหลือบันไดหนีไฟ 40 ชั้น · ปม: อินเตอร์คอมจากใต้ดิน 'อย่าลงมา'",
+      "fact": "รถจอดตากแดดร้อนขึ้น ~1.8°C ทุก 5 นาที 80% ในครึ่งชั่วโมงแรก (Pediatrics 2005)"
+    },
+    {
+      "ep": 2,
+      "title": "ปล่องไฟแนวตั้ง",
+      "floors": "40→31",
+      "story": "บันไดหนีไฟกลายเป็นปล่องลมร้อน เจอใบเตยกับแมวที่ติดอยู่ชั้น 36",
+      "fact": "(ตรวจตอนทำ) CDC: ฮีตสโตรก อุณหภูมิร่างกายขึ้นถึง 41°C ใน 10–15 นาที"
+    },
+    {
+      "ep": 3,
+      "title": "ท่อเดือด",
+      "floors": "31→25",
+      "story": "ท่อประปาเดือดจนระเบิด ไอน้ำท่วมโถงบันได ต้องเลือกระหว่างความชื้นกับความร้อน",
+      "fact": "(ตรวจตอนทำ) ขีดจำกัด wet-bulb ของร่างกายมนุษย์"
+    },
+    {
+      "ep": 4,
+      "title": "สระลอยฟ้า",
+      "floors": "25",
+      "story": "สระว่ายน้ำชั้น 25 กลายเป็นบ่อน้ำร้อน ลุงชิตกับหมาของแก",
+      "fact": "(ตรวจตอนทำ) หมาระบายความร้อนด้วยการหอบ"
+    },
+    {
+      "ep": 5,
+      "title": "ปล่องลิฟต์",
+      "floors": "25→12",
+      "story": "ไต่ลงปล่องลิฟต์ที่เหล็กร้อนจนจับไม่ได้",
+      "fact": "(ตรวจตอนทำ) ผิวโลหะกลางแดดร้อนกว่าอากาศหลายสิบองศา"
+    },
+    {
+      "ep": 6,
+      "title": "ล็อบบี้แว่นขยาย",
+      "floors": "12→1",
+      "story": "ล็อบบี้กระจกโค้งรวมแสงจนของละลาย",
+      "fact": "(ตรวจตอนทำ) ตึก 20 Fenchurch Street ลอนดอน สะท้อนแสงจนชิ้นส่วนรถละลาย (2013)"
+    },
+    {
+      "ep": 7,
+      "title": "ลานจอดเงียบ",
+      "floors": "B1",
+      "story": "ลานจอดใต้ดินมืดสนิท เจ้าของเสียงในอินเตอร์คอม",
+      "fact": "(ตรวจตอนทำ) อุณหภูมิใต้ดินคงที่กว่าบนผิวดิน"
+    },
+    {
+      "ep": 8,
+      "title": "ชั้นสุดท้าย",
+      "floors": "B2",
+      "story": "ตอนจบ: ทำไมห้ามลงมา และแดดของวันที่สอง",
+      "fact": "(ตรวจตอนทำ)"
+    }
+  ]
+}

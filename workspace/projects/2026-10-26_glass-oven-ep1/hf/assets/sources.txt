@@ -1,0 +1,22 @@
+60°C รุ่งอรุณเดือด ตอนที่ 1 · แดดแรกเดือด — แหล่งที่มา
+
+ข้อเท็จจริงจริง (ฉาก s08)
+- รถที่จอดกลางแดด อุณหภูมิในรถเพิ่มขึ้นเฉลี่ย 3.2°F (≈1.8°C) ต่อ 5 นาที และ 80% ของความร้อนที่เพิ่มขึ้นเกิดใน 30 นาทีแรก
+  (รถเก๋งสีเข้ม 16 วันฟ้าใส อากาศภายนอก 72–96°F; เปิดกระจกแง้ม 1.5 นิ้วแทบไม่ช่วย)
+  ที่มา: McLaren C, Null J, Quinn J. Heat Stress From Enclosed Vehicles: Moderate Ambient Temperatures Cause Significant Temperature
+  Rise in Enclosed Vehicles. Pediatrics. 2005;116(1):e109–e112. doi:10.1542/peds.2004-2368
+  ข่าวเผยแพร่ Stanford (2005): https://med.stanford.edu/news/all-news/2005/07/parked-cars-get-dangerously-hot-even-on-cool-days-stanford-study-finds.html
+  สรุปงานวิจัย (PDF): https://www.kidsandcars.org/document_center/download/hot-cars/2005-07-01-heat-stress-enclosed-veh-study.pdf
+  NWS: https://www.weather.gov/lsx/excessiveheat-automobiles
+  หมายเหตุ: ตรวจกับบทคัดย่อและแหล่งรองหลายแหล่งที่ตรงกัน ยังไม่ได้อ่านบทความฉบับเต็ม
+
+เรื่องแต่ง
+- ชั้นโอโซนฉีกขาดแล้วอากาศร้อน 60°C ใน 2 ชั่วโมง, แอร์ระเบิด, น้ำประปาเดือด, นกร่วง, อินเตอร์คอมจากใต้ดิน — แต่งทั้งหมด
+  (ในชีวิตจริง ชั้นโอโซนบางลงทำให้รังสี UV แรงขึ้น ไม่ได้ทำให้อากาศร้อนขึ้นแบบนี้)
+- "ตึกกระจกทั้งหลัง = รถตากแดดคันมหึมา" เป็นการเปรียบเทียบในเรื่อง ไม่ใช่ผลการวิจัย
+- ตัวละคร คอนโด ช่องข่าว เป็นชื่อสมมติ
+
+เสียงพากย์ v1: ชั่วคราว MMS-tha (facebook/mms-tts, CC-BY-NC 4.0) ผ่าน sherpa-onnx — ใช้ตรวจจังหวะเท่านั้น ห้ามเผยแพร่
+เสียงพากย์จริง: Higgsfield seed_audio · Nadine (preset 165d9309-bb17-56ff-964a-5d6a38dab92f) — รอไฟล์
+เสียงประกอบ/ดนตรี: สังเคราะห์เอง (series/glass-oven/sound/make_sounds.py) ไม่มีสื่อของบุคคลที่สาม
+ฟอนต์: Prompt, Mitr (SIL OFL, Google Fonts)

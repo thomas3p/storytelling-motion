@@ -1,7 +1,7 @@
 """Write a HyperFrames captions scene from timings.json (tools/align_script.py output).
 
 usage: python build_captions.py timings.json out.html [--skip 25,..] [--hl "word=#hex" ...]
-One group per phrase, one group visible at a time, hard kill after each exit.
+One group per phrase, one group visible at a time, hard kill after each exit. A "|" in the display text breaks the line there.
 """
 import argparse, html, json, re
 
@@ -38,7 +38,8 @@ def mark(text):
                 t = t.replace(w, f'<span class="hl" style="background:{col}">{w}</span>', 1)
             else:
                 t = t.replace(w, f'<span style="color:{col};white-space:nowrap">{w}</span>', 1)
-    return t
+    # "|" in the display text is a manual line break (Thai has no spaces, so the browser may wrap mid-word)
+    return t.replace("|", "<br>")
 
 groups, js = [], []
 shown = [i for i in range(len(phr)) if i not in skip]

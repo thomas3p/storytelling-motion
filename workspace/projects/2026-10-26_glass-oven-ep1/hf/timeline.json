@@ -1,0 +1,437 @@
+{
+ "series_lib": "../../../series/glass-oven/lib",
+ "duration": "p18.end+3.0",
+ "xfade": 0.3,
+ "cues": {
+  "t35": "p0+2.35",
+  "t60": "p0+3.48",
+  "f40": "p2+0.99",
+  "glass": "p2+2.09",
+  "ozone": "p4+2.17",
+  "rip": "p4+3.88",
+  "glare": "p5+2.05",
+  "burn": "p5+2.70",
+  "full": "p6+2.15",
+  "boom": "p7+0.44",
+  "boom2": "p7+1.02",
+  "car": "p9+1.35",
+  "two": "p9+4.72",
+  "five": "p9+5.97",
+  "half": "p10+3.09",
+  "oven": "p11+1.79",
+  "tap": "p12+1.95",
+  "boil": "p12+2.97",
+  "birds": "p13+0.93",
+  "lift": "p14+0.51",
+  "stairs": "p14+1.45",
+  "forty": "p14+3.06",
+  "cook": "p15+1.40",
+  "icom": "p16+0.93",
+  "ring": "p16+3.34",
+  "title": "p1+0.7"
+ },
+ "scenes": [
+  {
+   "id": "s01",
+   "module": "s01_skyline",
+   "start": "0"
+  },
+  {
+   "id": "s02",
+   "module": "s02_title",
+   "start": "p1-0.3"
+  },
+  {
+   "id": "s03",
+   "module": "s03_tower",
+   "start": "p2-0.3"
+  },
+  {
+   "id": "s04",
+   "module": "s04_fix",
+   "start": "p3-0.3"
+  },
+  {
+   "id": "s05",
+   "module": "s05_news",
+   "start": "p4-0.3"
+  },
+  {
+   "id": "s06",
+   "module": "s06_sunrise",
+   "start": "p5-0.3"
+  },
+  {
+   "id": "s07",
+   "module": "s07_condensers",
+   "start": "p6-0.3"
+  },
+  {
+   "id": "s08",
+   "module": "s08_fact",
+   "start": "p8-0.3"
+  },
+  {
+   "id": "s09",
+   "module": "s09_oven",
+   "start": "p11-0.3"
+  },
+  {
+   "id": "s10",
+   "module": "s10_tap",
+   "start": "p12-0.3"
+  },
+  {
+   "id": "s11",
+   "module": "s11_birds",
+   "start": "p13-0.3"
+  },
+  {
+   "id": "s12",
+   "module": "s12_blackout",
+   "start": "p14-0.3"
+  },
+  {
+   "id": "s13",
+   "module": "s13_intercom",
+   "start": "p16-0.3"
+  },
+  {
+   "id": "s14",
+   "module": "s14_final",
+   "start": "p18-0.3"
+  }
+ ],
+ "globals": [
+  {
+   "id": "g01",
+   "module": "g_ep",
+   "start": "p2-0.3",
+   "end": "p18.end"
+  },
+  {
+   "id": "g02",
+   "module": "g_heat",
+   "start": "p2-0.3",
+   "end": "p18.end"
+  }
+ ],
+ "audio": [
+  {
+   "id": "vo",
+   "src": "audio/vo.wav",
+   "at": "0",
+   "dur": "file",
+   "track": 10
+  },
+  {
+   "id": "bgm",
+   "src": "bgm/heat_drone.wav",
+   "at": "0",
+   "dur": "s12+0.4",
+   "vol": 0.2,
+   "track": 11,
+   "fi": 1.5,
+   "fo": 1.2
+  },
+  {
+   "id": "bgm-2",
+   "src": "bgm/dark_drone.wav",
+   "at": "s12",
+   "dur": "end",
+   "vol": 0.28,
+   "track": 12,
+   "fi": 0.8,
+   "fo": 1.5
+  },
+  {
+   "id": "bgm-pulse",
+   "src": "bgm/pulse.wav",
+   "at": "s07",
+   "dur": "s12",
+   "vol": 0.3,
+   "track": 13,
+   "fi": 0.6,
+   "fo": 0.8
+  },
+  {
+   "id": "sfx-wind",
+   "src": "sfx/hot_wind.wav",
+   "at": "0",
+   "dur": "s03+0.4",
+   "vol": 0.3,
+   "track": 14,
+   "fi": 0.5,
+   "fo": 0.5
+  },
+  {
+   "id": "sfx-tick1",
+   "src": "sfx/beep.wav",
+   "at": "t35-0.05",
+   "dur": 0.4,
+   "vol": 0.45,
+   "track": 15
+  },
+  {
+   "id": "sfx-rise",
+   "src": "sfx/riser.wav",
+   "at": "t60-1.0",
+   "dur": 1.6,
+   "vol": 0.55,
+   "track": 16,
+   "fo": 0.2
+  },
+  {
+   "id": "sfx-title",
+   "src": "sfx/impact.wav",
+   "at": "title",
+   "dur": 2.5,
+   "vol": 0.7,
+   "track": 17,
+   "fo": 0.6
+  },
+  {
+   "id": "sfx-sun",
+   "src": "sfx/swell.wav",
+   "at": "s02",
+   "dur": 2.8,
+   "vol": 0.3,
+   "track": 18,
+   "fi": 0.4,
+   "fo": 0.6
+  },
+  {
+   "id": "sfx-f40",
+   "src": "sfx/whoosh.wav",
+   "at": "f40-0.3",
+   "dur": 1.2,
+   "vol": 0.45,
+   "track": 15
+  },
+  {
+   "id": "sfx-hum",
+   "src": "sfx/ac_hum.wav",
+   "at": "s04",
+   "dur": "s06",
+   "vol": 0.15,
+   "track": 14,
+   "fi": 0.3,
+   "fo": 0.4
+  },
+  {
+   "id": "sfx-news",
+   "src": "sfx/news_chime.wav",
+   "at": "s05+0.1",
+   "dur": 1.6,
+   "vol": 0.5,
+   "track": 16
+  },
+  {
+   "id": "sfx-rip",
+   "src": "sfx/glitch.wav",
+   "at": "rip-0.1",
+   "dur": 0.6,
+   "vol": 0.5,
+   "track": 17
+  },
+  {
+   "id": "sfx-glare",
+   "src": "sfx/swell.wav",
+   "at": "glare-0.8",
+   "dur": 2.8,
+   "vol": 0.4,
+   "track": 18,
+   "fi": 0.3,
+   "fo": 0.6
+  },
+  {
+   "id": "sfx-hum2",
+   "src": "sfx/ac_hum.wav",
+   "at": "s07",
+   "dur": "boom+0.1",
+   "vol": 0.25,
+   "track": 14,
+   "fi": 0.2
+  },
+  {
+   "id": "sfx-boom1",
+   "src": "sfx/explosion.wav",
+   "at": "boom-0.05",
+   "dur": 2.2,
+   "vol": 0.6,
+   "track": 15,
+   "fo": 0.5
+  },
+  {
+   "id": "sfx-boom2",
+   "src": "sfx/explosion.wav",
+   "at": "boom+0.55",
+   "dur": 2.2,
+   "vol": 0.5,
+   "track": 16,
+   "fo": 0.5
+  },
+  {
+   "id": "sfx-boom3",
+   "src": "sfx/explosion.wav",
+   "at": "boom2+0.35",
+   "dur": 2.2,
+   "vol": 0.55,
+   "track": 17,
+   "fo": 0.5
+  },
+  {
+   "id": "sfx-fact",
+   "src": "sfx/whoosh.wav",
+   "at": "s08",
+   "dur": 1.2,
+   "vol": 0.4,
+   "track": 18
+  },
+  {
+   "id": "sfx-tick2",
+   "src": "sfx/tick.wav",
+   "at": "two-0.2",
+   "dur": "half+1.0",
+   "vol": 0.25,
+   "track": 14,
+   "fi": 0.1,
+   "fo": 0.3
+  },
+  {
+   "id": "sfx-ding",
+   "src": "sfx/beep.wav",
+   "at": "half",
+   "dur": 0.4,
+   "vol": 0.45,
+   "track": 15
+  },
+  {
+   "id": "sfx-oven",
+   "src": "sfx/riser.wav",
+   "at": "oven-0.9",
+   "dur": 1.6,
+   "vol": 0.5,
+   "track": 16
+  },
+  {
+   "id": "sfx-boil",
+   "src": "sfx/boil.wav",
+   "at": "tap-0.2",
+   "dur": "s11+0.4",
+   "vol": 0.45,
+   "track": 17,
+   "fi": 0.3,
+   "fo": 0.4
+  },
+  {
+   "id": "sfx-birds",
+   "src": "sfx/flutter.wav",
+   "at": "birds-0.2",
+   "dur": 2.2,
+   "vol": 0.55,
+   "track": 18,
+   "fo": 0.4
+  },
+  {
+   "id": "sfx-thud",
+   "src": "sfx/thud.wav",
+   "at": "birds+0.9",
+   "dur": 1.2,
+   "vol": 0.55,
+   "track": 15
+  },
+  {
+   "id": "sfx-down",
+   "src": "sfx/power_down.wav",
+   "at": "s12+0.25",
+   "dur": 1.8,
+   "vol": 0.7,
+   "track": 16
+  },
+  {
+   "id": "sfx-alarm",
+   "src": "sfx/alarm.wav",
+   "at": "lift+0.3",
+   "dur": "s13+0.3",
+   "vol": 0.14,
+   "track": 17,
+   "fi": 0.2,
+   "fo": 0.4
+  },
+  {
+   "id": "sfx-door",
+   "src": "sfx/door.wav",
+   "at": "cook",
+   "dur": 1.4,
+   "vol": 0.6,
+   "track": 18
+  },
+  {
+   "id": "sfx-buzz",
+   "src": "sfx/intercom_buzz.wav",
+   "at": "ring-0.1",
+   "dur": 1.0,
+   "vol": 0.55,
+   "track": 15
+  },
+  {
+   "id": "sfx-static",
+   "src": "sfx/static.wav",
+   "at": "p17-0.4",
+   "dur": 1.8,
+   "vol": 0.4,
+   "track": 16,
+   "fi": 0.1,
+   "fo": 0.3
+  },
+  {
+   "id": "sfx-heart",
+   "src": "sfx/heartbeat.wav",
+   "at": "s14",
+   "dur": "end",
+   "vol": 0.45,
+   "track": 17,
+   "fi": 0.4,
+   "fo": 0.8
+  },
+  {
+   "id": "sfx-end",
+   "src": "sfx/impact.wav",
+   "at": "p18.end+0.25",
+   "dur": 2.5,
+   "vol": 0.6,
+   "track": 18,
+   "fo": 0.6
+  }
+ ],
+ "captions": {
+  "style": "flood",
+  "top": 1232,
+  "size": 54,
+  "skip": [
+   17
+  ],
+  "last_until": "p18.end+0.1",
+  "hl": {
+   "60 องศา": "#e5483a",
+   "ชั้น 40": "#e5483a",
+   "เชน": "#3a8ad0",
+   "ชั้นโอโซน": "#e5483a",
+   "ร้อนจนแสบผิว": "#e5483a",
+   "44 องศา": "#e5483a",
+   "ระเบิด": "#e5483a",
+   "2 องศา": "#e5483a",
+   "80%": "#e5483a",
+   "รถตากแดด": "#e5483a",
+   "51 องศา": "#e5483a",
+   "เดือดปุด ๆ": "#e5483a",
+   "ฝูงนก": "#e5483a",
+   "40 ชั้น": "#e5483a",
+   "ก่อนร่างกายจะสุก": "#e5483a",
+   "อินเตอร์คอม": "#3a8ad0",
+   "จะลงไปไหม": "#e5483a"
+  },
+  "overrides": {}
+ }
+}

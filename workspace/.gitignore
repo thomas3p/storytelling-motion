@@ -1,0 +1,4 @@
+# copies of the skill (re-created by scripts/setup_workspace.py)
+tools/
+templates/
+projects/*/hf/assets/gsap.min.js
